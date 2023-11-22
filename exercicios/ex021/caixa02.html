@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+    <style>
+      body{
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: dimgray;
+        margin: 0px;
+      }
+    
+      
+      header{
+        background-color: azure;
+        padding: 10px;
+        margin: 10px;
+      }
+      article{
+        background-color: rgb(162, 160, 164);
+        padding: 6px;
+        margin: 0px;
+        
+      }
+      main{
+        background-color: azure;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px 0px;
+        box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.405);
+        
+      }
+      footer{
+        background-color: rgb(0, 0, 0);
+        color: rgb(252, 252, 252);
+        text-align: center;
+        padding:5px;
+        margin: 0px;
+      }
+      footer> p{
+        margin: 0%;
+      }
+      article > aside{
+ background-color: rgb(122, 121, 123);
+      }
+      nav{
+        background-color: rgb(102, 102, 102);
+        padding: 3px;
+        box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.491);
+      }
+      nav> a {
+            text-decoration: none;
+            color: rgb(241, 241, 241);
+            font-weight: bolder;
+            margin-right: 30px;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+
+        }
+        div#bola{
+           height: 100px;
+           width: 100px;
+         margin: 50px auto;
+           background-color: aliceblue;
+           border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+        </header>
+        <main>
+        <section id="assuntos">
+             <p>esporte politica tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>noticia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, numquam aut omnis excepturi dignissimos obcaecati pariatur recusandae soluta exercitationem illum ipsum quam illo et laborum! Incidunt, adipisci quas. Excepturi, earum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia vitae consequatur iusto ratione incidunt ducimus voluptates, nobis exercitationem soluta numquam animi, dicta minus autem, neque illum voluptatibus recusandae magni nam.[ Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi commodi autem harum ratione consequatur possimus ipsam nostrum fugiat porro modi. Eligendi id optio eum excepturi, dolores aperiam molestiae velit quis.</p>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p> feito por Kaique Kletelinger de Freitas</p>
+    </footer>
+    <div id="bola"> 
+</div>
+</body>
+</html>

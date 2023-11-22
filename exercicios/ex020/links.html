@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited{
+            color: pink;
+        }
+        a:hover{
+            text-decoration: underline;
+            color: black;
+        }
+        a:active{
+            color: yellow;
+        }
+        a::before{
+            content: '☛';
+            color: black;
+        }
+        a::after{
+            content: '☚';
+            color: blue;
+
+        }
+        a#principal::after{
+        content: '☜☻';
+        color: aqua;
+        }
+        a#principal{
+            background-color: rgba(0, 255, 255, 0.266);
+        }
+    </style>
+</head>
+<body>
+    <h1>personalizando links</h1>
+    <ul>
+        <li><a href="https://github.com/gustavoguanabara" target="_blank" rel="external" id="principal">repositorio github</a></li>
+        <li> <a href="https://www.youtube.com/@CursoemVideo" target="_blank" rel="external">canal do youtube</a></li>
+        <li> <a href="https://www.cursoemvideo.com/" target="_blank" rel="external">site cursoemvideo</a></li>
+        <li><a href="https://www.youtube.com" target="_blank"> youtube</a></li>
+        <li><a href="https://www.adidas.com" target="_blank"> adidas</a></li>
+</ul>
+</body>
+</html>
