@@ -1,0 +1,26 @@
+@charset "UTF-8";
+body{
+    background-color: black;
+    background-image: url('imagens/wallpaper002.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+main{
+    background-color: azure;
+    width: 400px;
+    margin: auto;
+    border: 1px solid blue;
+    border-radius: 15px;
+   
+}
+main > p{
+    padding: 18px;
+    text-align: justify;
+    text-indent: 10px;
+    font-size: larger;
+}
+main > h1{
+    text-align: center;
+}
